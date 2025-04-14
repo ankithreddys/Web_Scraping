@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup as bsp
 
 website = "https://subslikescript.com/movie/Titanic-120338"
 result = requests.get(website)
+print(result)
 content = result.text
 
 
